@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+ {% include header.html %}
+   <div class="container">
+      <div class="masterhead">
+        
+        <h3 class="masterhead-title">
+          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
+        <!-- <nav class="main-nav">
+
+      <ul class="item">
+
+        {% for page in site.pages limit:3 %}
+          <li class="items">
+
+          <a href="{{ page.url }}" class="brand">{{ page.title }}</a>
+
+        </li>
+        {% endfor %}
+
+      </ul>
+
+    </nav>-->
+        </div>
+      </div>
+ <div class="container content">
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+    </div>
+</body>
+</html>

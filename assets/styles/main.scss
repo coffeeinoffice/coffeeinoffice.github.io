@@ -1,0 +1,12 @@
+---
+# Include scss files from _sass folder to build stylesheet
+---
+
+@import 'baseline';
+@import 'code';
+@import 'header';  
+@import 'layout';
+@import 'pagination';
+@import 'posts';
+@import 'typography';
+@import 'markdown';

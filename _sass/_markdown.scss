@@ -1,0 +1,30 @@
+blockquote {
+    p {
+        display: inline;
+        color: #ff0f00;
+        font-style: italic;
+
+        &:first-of-type {
+            // Quote symbols
+            quotes: '\201C' '\201D' '\2018' '\2019';
+            
+        }
+
+        &:last-of-type {
+            // Quote symbols
+            quotes: '\201C' '\201D' '\2018' '\2019';
+            color: #5c5c5c;
+                font-size: 0.8rem;
+                font-style: normal;
+
+            &::before {
+                // \000A is the unicode new line character
+                // \2014 is the unicode em dash character
+                white-space: pre;
+                margin-left: 0.1rem;
+                font-style: normal;
+                
+            }
+        }
+    }
+}

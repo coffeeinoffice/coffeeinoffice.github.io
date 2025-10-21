@@ -1,0 +1,52 @@
+.masterhead {
+  padding-top:    1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+.masterhead>div {
+  text-align: left;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.items {
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 15px;
+
+  a {
+    color: #808080;
+  }
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+}
+
+.item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.masterhead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ff0f00;
+
+  a {
+    color: #ff0f00;
+  }
+
+  small {
+    font-size: 75%;
+    font-weight: 300;
+    color: #a8a8a8;
+    letter-spacing: 0;
+  }
+}
