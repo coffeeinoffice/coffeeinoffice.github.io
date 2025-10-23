@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using GitHub Repository for Note Taking"
-date: 2025-10-17 22:41:26 +0200
+date: 2025-10-22 22:41:26 +0200
 categories: github notes productivity markdown
 ---
 
@@ -43,7 +43,7 @@ In addition to the shut down, a vendor lock-in always has the risk that some fun
 
 Anyhow, I was looking for an option that solves my issues #1 and #2 and ideally I can deal also with issue #3 with a new setup.
 
-## My current idea with GitHub and Markdown
+## My current idea is to use GitHub and Markdown
 
 Since I'm working in IT and I like dealing with coding and technology I wanted to explore a more none-fancy tool way. Some of you might be familiar with GitHub and Markdown and some not. Don't worry I will not try to explain in depth what each of these words mean but I try to give you an idea, how these two "tools" could help me with my three issues.
 
@@ -56,3 +56,27 @@ Markdown
 : Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. This means that you can just write text and use e.g. ** to make something **bold**. Same works for headings, etc.
 
 ### Issue 1 - Access notes from everywhere
+
+All repositories you create on Github are accessible everywhere, independent of operating system, browser or mobile devices. This is an awesome feature and it comes totall for free.
+
+So my idea is to setup a private notes repository where I will store all my notes in markdown files. Markdown files can be edited either directly on GitHub or with any note editor or with your prefered IDE where you can ideally use git commands as well to sync your changes.
+
+I don't know yet if this will work but at least issue #1 is solved with Github and Markdown files.
+
+### Issue 2 - Dealing with tool settings
+
+Neither Github nor markdown require any specific tool settings. You can setup a user account on Github (any developer probably has it anyhow) and create a private repository with some minimal setting if needed.
+
+For markdown files you just need any text editor or use the built in from GitHub. You can save all files as .md or .markdown and you are done.
+
+### Issue 3 - Vendor lock-in
+
+Github is some kind of a vendor lock-in. It works like a charm to synchronize your repositories, etc. but it is all based on open source git. So if Github will be no longer available or changes features you would be able to move to some other platform that works similar, e.g. Gitlab or you try to setup a platform on your own.
+
+Markdown itself is totally independent, at least if you use the default syntax. If you choose to use special variants from the syntax you might have issues with some interpreters but if not you can move your markdown files anyhwere and have it previewed in a lot of editors and websites.
+
+## Conculision
+
+I will keep you posted on how my experience is going and how my setup looks like in my notes repository. I'm not sure if this will be the final note taking system for me but it look promising so far.
+
+Stay tuned and enjoy your coffee!
