@@ -5,6 +5,7 @@
 layout: default
 title: Home
 permalink: /
+order: 1
 ---
 
 <div class="posts">
@@ -25,6 +26,7 @@ permalink: /
             <a href="{{ site.baseurl }}{{ post.url }}">
                 Continue reading...
             </a>
+            
         </p>
     {% endif %}
   </article>

@@ -2,7 +2,7 @@
 layout: post
 title: "Using GitHub Repository for Note Taking"
 date: 2025-10-22 22:41:26 +0200
-categories: github notes productivity markdown
+categories: [github, notes, productivity, markdown]
 ---
 
 I'm a nerd, at least somehow. Since years I'm always looking to improve stuff and use tools to make my life easier. One of my biggest topics I still struggle with is a proper note taking and organizing system. I tried nearly everything. Started with Apple Notes, moved to Evernote, moved to Notion, took a look at Obsidian, moved back to Apple Notes. And it never ends. The biggest issues I had on this journey are:

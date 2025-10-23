@@ -2,14 +2,22 @@
 <html lang="en">
     
  {% include header.html %}
+ 
    <div class="container">
       <div class="masterhead">
         
         <h3 class="masterhead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
+          
         </h3>
-        <!-- <nav class="main-nav">
+        
+         
+    <img src="{{ site.baseurl }}/assets/styles/icon_32x32.png" width="32px" height="32px">
+
+      </div>
+      <!--
+      <nav class="main-nav">
 
       <ul class="item">
 
@@ -24,9 +32,9 @@
       </ul>
 
     </nav>-->
-        </div>
-      </div>
+
  <div class="container content">
+   
       <main>
         {{ content }}
       </main>
