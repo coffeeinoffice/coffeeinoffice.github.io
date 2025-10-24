@@ -17,7 +17,8 @@ order: 1
       </a>
     </h1>
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }} | {% include tags.html %}</time>
+    
 
      {{ post.content | markdownify | strip_html | truncatewords: 50 }}
     {% if post.content.size > 50 %}

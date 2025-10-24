@@ -31,7 +31,7 @@ pre code {
 
 // Pygments via Jekyll
 .highlight {
-  padding: 1rem;
+  padding: 0.5rem;
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
@@ -53,4 +53,24 @@ pre code {
        -moz-user-select: none;
             user-select: none;
   }
+}
+
+
+// Copy Button
+.code-header{
+  background-color: #000;
+}
+
+.copy-code-button{
+  inset-inline-end: var(--size-code-padding);
+color: var(--color-code-text);
+background-color: var(--color-code-overlay-1);
+padding: var(--size-spacing--3) var(--size-spacing--1);
+border-radius: var(--size-spacing--3);
+font-size: var(--size-font-sm);
+font-family: var(--font-family-mono);
+font-weight: var(--font-weight-mono-regular);
+position: absolute;
+display: unset;
+transform: translateY(-50%);
 }
