@@ -5,7 +5,7 @@ date: 2025-10-22 22:41:26 +0200
 tags: [Github, Productivity, Markdown]
 ---
 
-I'm a nerd, at least somehow. Since years I'm always looking to improve stuff and use tools to make my life easier. One of my biggest topics I still struggle with is a proper note taking and organizing system. I tried nearly everything. Started with Apple Notes, moved to Evernote, moved to Notion, took a look at Obsidian, moved back to Apple Notes. And it never ends. The biggest issues I had on this journey are:
+I'm a nerd, at least somehow. Since years I'm always looking to improve stuff and use tools to make my life easier. One of my biggest topics I still struggle with is a proper note taking and organizing system. I tried nearly everything. Started with [Apple Notes](https://www.icloud.com/notes), moved to [Evernote](https://evernote.com/de-de), moved to [Notion](https://www.notion.com/de), took a look at [Obsidian](https://obsidian.md), moved back to Apple Notes. And it never ends. The biggest issues I had on this journey are:
 
 1. Access notes from everywhere on every device is not smooth.
 2. Dealing with tool settings, formatting, etc. instead of taking and organizing notes.
@@ -75,7 +75,7 @@ Github is some kind of a vendor lock-in. It works like a charm to synchronize yo
 
 Markdown itself is totally independent, at least if you use the default syntax. If you choose to use special variants from the syntax you might have issues with some interpreters but if not you can move your markdown files anyhwere and have it previewed in a lot of editors and websites.
 
-## Conculision
+## Conclusion
 
 I will keep you posted on how my experience is going and how my setup looks like in my notes repository. I'm not sure if this will be the final note taking system for me but it look promising so far.
 
