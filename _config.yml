@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "coffeeinoffice.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://coffeeinoffice.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
@@ -59,25 +59,29 @@ exclude:
 
 ### Add Default values for the layouts when creating new files in specific folders
 defaults:
-  -
-    scope:
+  - scope:
       type: posts
       path: _posts
     values:
       is_post: true
       layout: post
-      permalink: /blog/:title/
+      permalink: /posts/:title/
       title:
       description:
       keywords: []
       tags: []
-  -
-    scope:
+  - scope:
       type: pages
       path: _pages
     values:
       is_post: false
       layout: default
+  - scope:
+      type: post_tags
+      path: ''
+    values:
+      permalink: "/tags/:name/"
+      layout: tag
 
 ### Define where to find specific content at start of the Jekyll site
 include: [_pages] # Include the pages subfolder where all static pages are listed
@@ -85,3 +89,9 @@ include: [_pages] # Include the pages subfolder where all static pages are liste
 ### Increase performance
 sass:
   style: compressed
+
+### Collections
+collections:
+  post_tags:
+    permalink: /tags/:name/
+    output: true

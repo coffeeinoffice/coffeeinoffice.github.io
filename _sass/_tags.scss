@@ -1,0 +1,30 @@
+.tag-title {
+  margin-block-start: 0;
+  margin-block-end: 1rem;
+  color: #000000;
+
+  a:hover {
+      color: #000000;
+      text-decoration: none;
+
+      small {
+        color: inherit;
+      }
+    }
+}
+
+.tag-date {
+  display: block;
+  margin-top: -0.5rem;
+  color: #9a9a9a;
+  font-size: 0.75rem;
+
+  a:hover {
+      color: #000000;
+      text-decoration: none;
+
+      small {
+        color: inherit;
+      }
+    }
+}

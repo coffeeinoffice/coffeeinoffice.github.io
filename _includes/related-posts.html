@@ -1,0 +1,48 @@
+{% assign page = include.page %}
+{% assign tags_match_min = include.tags_match_min | default: 3 %}
+{% assign related_post_count = 1 %}
+{% assign related_posts = "" | split: "|" %}
+{% assign max_posts = include.max_posts | default: 6 %}
+<ul class="related-posts">
+{% for min_tags in (1..tags_match_min) reversed %}    
+    {% for post in site.posts %}
+        {% if related_post_count <= max_posts and post.url != page.url %}
+            {%- comment %}# Calculate related_tags {% endcomment %}
+            {% assign related_tags = 0 %}
+            {% for tag in page.tags %}
+                {% if post.tags contains tag %}
+                    {% assign related_tags = related_tags | plus: 1 %}
+                {% endif %}
+            {% endfor %}
+            
+            {% if related_tags >= min_tags %}
+                {% unless related_posts contains post.url %}
+                    {%- assign related_post_count = related_post_count | plus: 1 -%}
+                    {%- assign url_arr = post.url | split: "|" -%}
+                    {%- assign related_posts = related_posts | concat: url_arr %}
+                    {% assign date_format = "%-d %b %Y" %}
+
+                    <li>
+                        <span class="tag-date">
+                            {{ post.date | date: date_format }}
+                            {%- if post.tags -%}
+                                <span class="tags">
+                                    {% for tag in post.tags %}            
+                                        <a href="{% include tag-url.html tag=tag %}">#{{ tag }}</a>
+                                    {% endfor %}
+                                </span>
+                            {%- endif -%}
+                        </span>
+                    
+                        <h3 class="tag-title">
+                            <a href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </a>
+                        </h3>
+                    </li>
+                {% endunless %}
+            {% endif %}
+        {% endif %}   
+    {% endfor %}     
+{% endfor %}
+</ul>

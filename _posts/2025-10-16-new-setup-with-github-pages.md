@@ -2,7 +2,7 @@
 layout: post
 title:  "Grab a coffee for the first post!"
 date:   2025-10-16 22:41:26 +0200
-categories: [github, blog]
+tags: [Github, "Blog Setup"]
 ---
 
 
