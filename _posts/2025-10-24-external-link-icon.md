@@ -14,7 +14,6 @@ There are multiple options how you can add an icon to an external link. There ar
 
 To setup the icons to external links I prefer to use a SVG image. You can modify links via the :after method in CSS. As example on how this looks on my page:
 
-{% include codeHeader.html %}
 ```css
 a:not(
       [href^="#"],
