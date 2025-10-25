@@ -6,9 +6,11 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }} | {% include reading-time.html %} | {% include tags.html %}</time>
   {{ content }}
+  <hr>
+  {% include comments.html %}
 </article>
 
 <aside class="related">
-<h2>Related posts</h2>
+<h2>Ready for more?</h2>
     {% include related-posts.html page=page %}
 </aside>
