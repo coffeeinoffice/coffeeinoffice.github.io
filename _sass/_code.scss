@@ -31,20 +31,15 @@ pre code {
 
 // Pygments via Jekyll
 .highlight {
-  padding: 0.5rem;
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: #f9f9f9;
+  background-color: #ffffff !important;
   border-radius: .25rem;
 
   pre {
     margin-bottom: 0;
-    white-space: pre-wrap;       /* Since CSS 2.1 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;
+    overflow-x: auto;
   }
 
   .lineno {

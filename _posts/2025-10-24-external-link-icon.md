@@ -7,7 +7,7 @@ tags: ["Blog Setup"]
 
 If you are like me and you are browsing any kind of blog or website to learn and figure out how things work, you probably come across links to pages different then the current url. You would assume that these links are opening a new tab so you can read the reference after you finished reading the current page, but often this is not the case and the links open directly in the current tab.
 
-I wanted to avoid this so I setup a general logic in my Jekyll blog via the [Liquid Replace](/404.html) functionality. But just having the links open in a new tab was not enough for me, I wanted to also make it visible that the links are pointing to an external site.
+I wanted to avoid this so I setup a general logic in my Jekyll blog via the [Liquid Replace](/posts/external-link-new-tab/) functionality. But just having the links open in a new tab was not enough for me, I wanted to also make it visible that the links are pointing to an external site.
 
 ## Using CSS to add an icon to external links
 There are multiple options how you can add an icon to an external link. There are Jekyll plugins, you can use javascript or like I did, use CSS. I preferred the simple CSS way because I host my website via Github pages which do not support many Jekyll plugins. I also decided against javascript because there are still users who have this deactivated. 
