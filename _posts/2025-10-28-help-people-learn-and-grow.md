@@ -1,6 +1,6 @@
 ---
 title: "Help people learn and grow"
-tags: [Leaderhip, Life]
+tags: [Leadership, Life]
 ---
 I bet anyone of you had been in a situation where they had no clue of how things are working or how to tackel a specific problem. I have been in a lot of such situation and I'm in such situations from time to time again. There is nothing wrong with not knowing how something works or asking for support in such situations.
 
