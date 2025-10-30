@@ -5,9 +5,10 @@ tags: [ServiceNow, PDI]
 This is the first part of an article series on how to setup your PDI and use the power of ServiceNow to set it up even faster if it got reclaimed by ServiceNow or you want to refresh.
 
 **ServiceNow PDI Setup Series**
-- _Part 1: Setup your Playground_
+- _**Part 1: Setup your Playground**_
 - Part 2: Deploy your preferences the fast way
 - Part 3: Enhance your setup with automated Plugins installation
+  
 ---
 
 
