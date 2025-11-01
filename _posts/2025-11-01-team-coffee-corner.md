@@ -1,5 +1,6 @@
 ---
 title: "Coffee corners ftw"
+date:   2025-11-01 08:41:26 +0200
 tags: [Leadership, Team]
 ---
 
