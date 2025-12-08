@@ -32,7 +32,7 @@ Let's start with factsheets (data in LeanIX) that we will have in focus for this
 These four fact sheets are part of the LeanIX data model and the center of everything in LeanIX is the Application factsheet. The relation is quite simple:
 
 ```mermaid
-flowchart TB
+graph TB
     bc(Business Capability)
     app(Application)
     system(System)
@@ -51,7 +51,7 @@ A similar relationship picture is within CSDM as well if we take a look at these
 4. Product Model
 
 ```mermaid
-flowchart TB
+graph TB
     bc(Business Capability)
     app(Business Application)
     system(Service Instance)
@@ -65,7 +65,7 @@ flowchart TB
 If we take that relationship picture and model it for a typical ServiceNow environment this could mean something like this:
 
 ```mermaid
-flowchart TB
+graph TB
     bc(Business Capability: <br>**IT Service Management**)
     bc2(Business Capability: <br>**IT Knowledge Management**)
     app(Business Application: <br>**ServiceNow ITSM**)
